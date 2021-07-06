@@ -175,6 +175,7 @@
   background: linear-gradient(0deg, #f9effe, #f9effe);
   border-radius: 20px;
   align-items: flex-start;
+  height: 586px;
 }
 
 .box-text-1 {
@@ -204,7 +205,7 @@
 }
 
 .branding___item {
-  display: flex;
+  /* display: flex;
   flex-flow: row wrap;
   align-items: center;
   align-content: center;
@@ -212,7 +213,19 @@
   row-gap: 10px;
   width: 1053px;
   height: 400px;
-  justify-content: flex-start;
+  justify-content: flex-start; */
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  grid-column-gap: 10px;
+  column-gap: 35px;
+  grid-row-gap: 10px;
+  row-gap: 10px;
+  width: 1365px;
+  height: 400px;
+  justify-content: center;
 }
 
 .branding {
@@ -223,6 +236,10 @@
   align-content: center;
   background: #f5f5f7;
   margin-top: 50px;
+  position: relative;
+  z-index: 2;
+  gap: 36px;
+  margin-top: 111px;
 }
 .language {
   display: flex;
@@ -246,17 +263,15 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 140%;
-  /* or 56px */
-
+  margin-top: 36px;
   text-align: center;
-
   color: #333333;
 }
 
 .off {
   position: relative;
-  top: -592px;
-  left: 494px;
-  z-index: -1;
-  transform: rotate(-4deg);
+  top: -864px;
+  left: 511px;
+  /* z-index: -1; */
+  transform: rotate(-2deg);
 }

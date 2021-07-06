@@ -105,7 +105,7 @@ const MainLayout = () => {
                 src={Mockup01}
                 alt="Mockup01"
                 width="1200px"
-                height="394px"
+                height="430px"
               ></img>
             </div>
           </div>
@@ -241,7 +241,7 @@ const MainLayout = () => {
         </div>
       </div>
       <div className="off">
-        <img src={offsquare} alt="offsquare" width="226px" height="227px"></img>
+        <img src={offsquare} alt="offsquare" width="526px" height="527px"></img>
       </div>
     </>
   );
